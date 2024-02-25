@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "hw8-web"
+version = "0.1.0"
+description = ""
+authors = ["BogSyn <ravlykplus@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pymongo = "^4.6.1"
+mongoengine = "^0.27.0"
+redis = "^5.0.1"
+redis-lru = "^0.1.2"
+black = {extras = ["d"], version = "^24.2.0"}
+pika = "^1.3.2"
+faker = "^23.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
